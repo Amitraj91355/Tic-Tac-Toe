@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
 
 /* Navigation styles */
 nav {
@@ -109,15 +109,6 @@ nav ul {
     font-weight: bolder;
 }
 
-/* Winning line styles */
-.line {
-    background-color: #911d91;
-    height: 3px;
-    width: 0;
-    position: absolute;
-    transition: width 1s ease-in-out;
-}
-
 /* Responsive styles for screens up to 950px */
 @media screen and (max-width: 950px) {
     .gameContainer {
@@ -139,4 +130,5 @@ nav ul {
         grid-template-columns: repeat(3, minmax(20vw, 1fr)); /* Responsive columns */
         gap: 3px; /* Reduce gap on smaller screens */
     }
+    
 }
